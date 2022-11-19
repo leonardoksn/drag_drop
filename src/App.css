@@ -1,0 +1,32 @@
+#root {
+
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+
+}
+.item-list{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  list-style: none;
+  border: 1px solid gray;
+  width: 300px;
+  
+  height: 40px;
+  font-size: 1em;
+}
+
+.item-list > svg{
+  margin: 20px;
+
+}
+
